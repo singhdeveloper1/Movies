@@ -1,0 +1,30 @@
+@media only screen and (max-width: 950px){
+    .movie-container{
+        flex-direction: column;
+    }
+
+
+    .movie-poster img{
+        width: 100%;
+        height: fit-content;
+        margin-right: 0;
+    }
+
+    .movie-info{
+        padding-inline: 30px;
+    }
+    .no-background{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 568px){
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-container{
+        margin-top: 10px;
+    }
+}
